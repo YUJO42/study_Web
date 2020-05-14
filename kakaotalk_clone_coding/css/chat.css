@@ -157,3 +157,8 @@
   border-bottom-right-radius: 0px;
   background-image: linear-gradient(to left, #00c6ff, #0072ff);
 }
+
+.chats li {
+  margin-top: 15px;
+  border-top: 1px solid #f7f7f7;
+}
