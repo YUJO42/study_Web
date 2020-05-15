@@ -33,6 +33,13 @@
   width: 50px;
   border-radius: 25px;
 }
+.home__header img {
+  width: 32px;
+  border-radius: 20px;
+  position: absolute;
+  left: 40px;
+  top: 2px;
+}
 
 .home__column .chat__preview {
   border-bottom: 1px solid #517da2;
@@ -41,7 +48,7 @@
 .home__body .chat__preview {
   position: absolute;
   left: 70px;
-  width: 375px;
+  width: 365px;
 }
 
 .chat__preview .preview__column {
