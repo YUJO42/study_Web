@@ -13,203 +13,82 @@
     <title>Telegram Clone</title>
   </head>
   <body>
-    <div class="column left__column">
-      <header class="left__header">
+    <header class="home__header">
+      <div class="header-icon">
         <i class="fas fa-bars"></i>
-        <input
-          type="text"
-          class="chat__write"
-          placeholder="Search"
-          class="chat__write-input"
-        />
-      </header>
-      <div class="left__body">
-        <ul class="preview__list">
-          <li class="preview__chats">
+      </div>
+      <div class="header-name">
+        <span class="home-text">
+          Telegram
+        </span>
+      </div>
+      <div class="header-icon">
+        <i class="fas fa-search"></i>
+      </div>
+    </header>
+    <ul class="home__body">
+      <li class="home__column">
+        <div class="avatar">
+          <img src="images/rabbit.png" class="avatar-image" />
+        </div>
+        <div class="chat__box">
+          <div class="chat__preview">
             <div class="preview__column">
-              <img src="images/telegram.png" class="preview__avatar" />
-            </div>
-            <div class="preview__content">
               <span class="preview__name">
-                Telegram
-              </span>
-              <span class="preview__text">
-                You: Photo
+                Rabbit
               </span>
             </div>
             <div class="preview__column">
-              <span class="preview__time">
-                오후 7:07
+              <span class="preview__message">
+                I Like Carrot!
               </span>
             </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="column mid__column">
-      <header class="chat__header">
-        <div class="left-box">
-          <span class="friend__name">
-            dog
-          </span>
-          <span class="friend__time">
-            last seen recently
-          </span>
-        </div>
-        <div class="right-box">
-          <i class="fas fa-phone"></i>
-          <i class="fas fa-search"></i>
-          <i class="fas fa-address-book"></i>
-          <i class="fas fa-ellipsis-v"></i>
-        </div>
-      </header>
-      <div class="chat__body">
-        <ul class="chat__message">
-          <span class="chat__timestamp">
-            May 15
-          </span>
-          <li class="incoming-message message">
-            <div class="messeage__content">
-              <span class="message__bubble">
-                bowwow bowwow bowbowbowwow!
-              </span>
-            </div>
-          </li>
-          <li class="sent-message message">
-            <div class="messeage__content">
-              <span class="message__bubble">
-                What dose mean?
-              </span>
-            </div>
-          </li>
-        </ul>
-        <div class="chat__write--container">
-          <input
-            type="text"
-            class="chat__write"
-            placeholder="write a message..."
-            class="chat__write-input"
-          />
-          <div class="chat__icon-left chat__icon">
-            <i class="fas fa-paperclip"></i>
           </div>
-
-          <div class="chat__icon-right chat__icon">
-            <span class="chat__write-icon">
-              <i class="far fa-smile-wink"></i>
+          <div class="chat__time">
+            오후 9:54
+          </div>
+        </div>
+      </li>
+      <li class="home__column">
+        <div class="avatar">
+          <img src="images/dog.png" class="avatar-image" />
+        </div>
+        <div class="chat__preview">
+          <div class="preview__column">
+            <span class="preview__name">
+              dog
             </span>
-            <span class="chat__write-icon">
-              <i class="fas fa-microphone"></i>
+          </div>
+          <div class="preview__column">
+            <span class="preview__message">
+              OK!
             </span>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="column right__column">
-      <div class="right__user">
-        <div class="right__header">
-          <div class="right__header-message">
-            <span class="right__header-text">
-              User info
-            </span>
-          </div>
-          <div class="right__header-icon">
-            <i class="fas fa-times"></i>
-          </div>
+        <div class="chat__time">
+          오후 7:12
         </div>
-        <div class="right__user-info">
-          <div class="right__user-img">
-            <img src="" class="" />
-          </div>
-          <div class="right__user-info">
-            <span class="right__user-name">
-              Dog
+      </li>
+      <li class="home__column">
+        <div class="avatar">
+          <img src="images/lion-.png" class="avatar-image" />
+        </div>
+        <div class="chat__preview">
+          <div class="preview__column">
+            <span class="preview__name">
+              Lion
             </span>
-            <span class="right__user-time">
-              last seen recently
+          </div>
+          <div class="preview__column">
+            <span class="preview__message">
+              Wow!! That`s good idea!
             </span>
           </div>
         </div>
-      </div>
-      <div class="right__more">
-        <div class="more-left">
-          <div class="icon-top">
-            <i class="fas fa-exclamation-circle"></i>
-          </div>
-          <div class="icon-bottom">
-            <i class="fas fa-bell"></i>
-          </div>
+        <div class="chat__time">
+          yesterday
         </div>
-        <div class="more-right">
-          <div class="right-top">
-            <div class="user__info">
-              <span class="bold">
-                +82 010 01010 10101
-              </span>
-              <span class="normal">
-                Mobile
-              </span>
-            </div>
-            <div class="user__info">
-              <span class="bold">
-                @dogking
-              </span>
-              <span class="normal">
-                Username
-              </span>
-            </div>
-            <div class="notification">
-              <div class="notification__text">
-                <span class="normal">
-                  Notifications
-                </span>
-              </div>
-              <div class="notification__icon">
-                <i class="fas fa-toggle-on"></i>
-              </div>
-            </div>
-          </div>
-          <div class="right-bottom"></div>
-        </div>
-      </div>
-      <div class="right__content">
-        <div class="content__icon">
-          <i class="fas fa-lists"></i>
-        </div>
-        <div class="content__text">
-          <div class="text_box">
-            <span class="">
-              Share Contact
-            </span>
-          </div>
-
-          <div class="text_box">
-            <span class="">
-              Edit contacto
-            </span>
-          </div>
-          <div class="text_box">
-            <span class="">
-              Delete contact
-            </span>
-          </div>
-          <div class="text_box">
-            <span class="">
-              Clear history
-            </span>
-          </div>
-          <div class="text_box">
-            <span class="">
-              Delete chat
-            </span>
-          </div>
-          <div class="text_box">
-            <span class="red">
-              Block user
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
+      </li>
+    </ul>
   </body>
 </html>
