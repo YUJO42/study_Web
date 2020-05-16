@@ -2,3 +2,29 @@
   background-image: url("../images/telegram_background.jpg");
   min-height: 1200px;
 }
+
+.timestamp__box {
+  display: flex;
+  justify-content: center;
+}
+
+.chatting__timestamp {
+  color: white;
+  opacity: 0.7;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #7a7a7a;
+}
+
+.chatting__list {
+  display: block;
+  justify-self: self-start;
+}
+
+.chatting__timestamp .incomming-meesage {
+  justify-content: flex-start;
+}
+
+.chatting__timestamp .sent-meesage {
+  justify-content: flex-end;
+}
