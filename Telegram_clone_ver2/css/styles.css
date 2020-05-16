@@ -2,6 +2,7 @@
 @import "chat.css";
 @import "home.css";
 @import "header.css";
+@import "bottom.css";
 
 * {
   box-sizing: border-box;
