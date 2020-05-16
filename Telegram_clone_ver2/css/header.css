@@ -12,6 +12,7 @@
   padding: 20px 30px 20px 10px;
   color: white;
   background-color: #517da2;
+  height: 70px;
 }
 
 .header__column {
@@ -34,4 +35,31 @@
 .header__column .app__header-text {
   margin-left: 60px;
   font-weight: bold;
+}
+
+.chatting__header img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
+
+.chatting__header {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.chatting__header .chatting__content {
+  margin-left: 10px;
+}
+
+.chatting__name {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chatting__time {
+  font-size: 16px;
+  opacity: 0.6;
 }
