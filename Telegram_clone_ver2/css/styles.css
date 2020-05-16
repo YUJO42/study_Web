@@ -1,0 +1,12 @@
+@import "reset.css";
+@import "chat.css";
+@import "home.css";
+@import "header.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}

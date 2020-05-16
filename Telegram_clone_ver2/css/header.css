@@ -1,0 +1,36 @@
+.top__header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #426382;
+  padding: 15px 30px 15px 15px;
+  color: white;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px 20px 20px;
+  color: white;
+  background-color: #517da2;
+}
+
+.header__column {
+  display: flex;
+}
+
+.header__column .header__icon,
+.header__column .header__text {
+  margin-left: 15px;
+  font-size: 22px;
+}
+/* 
+.header__column .app__header-icon,
+.header__column .header__icon {
+  margin-right: 10px;
+} */
+
+.header__column .app__header-icon,
+.header__column .app__header-text {
+  margin-left: 15px;
+  font-size: 28px;
+}
