@@ -1,4 +1,4 @@
-# study_Web - 공부자료, 만든 것들 정리
+# study_Web - 공부자료 정리
 ## 공부자료
 1. HTML / CSS
 
@@ -6,9 +6,6 @@
    - ["Kakaotalk_Clone_Coding - Nomard Coders"](https://academy.nomadcoders.co/p/kakaoclone_total)
 
 2. Vanila JS
----
-## self-made
-
-1. Telegram Clone Coding (ver 2.)
+   - [초보자를 위한 바닐라 자바스크립트](https://www.youtube.com/watch?v=wUHncG3VwPw&list=PL7jH19IHhOLM8YwJMTa3UkXZN-LldYnyK&index=1)
 
    
